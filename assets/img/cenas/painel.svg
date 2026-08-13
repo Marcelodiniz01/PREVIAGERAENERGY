@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" width="1280" height="820">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111A"/><stop offset="1" stop-color="#040709"/>
+    </linearGradient>
+    <radialGradient id="g2" cx=".5" cy=".4" r=".65">
+      <stop offset="0" stop-color="#1E9BE0" stop-opacity=".28"/><stop offset="1" stop-color="#1E9BE0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="820" fill="url(#bg2)"/>
+  <rect width="1280" height="820" fill="url(#g2)"/>
+
+  <!-- gabinete -->
+  <g>
+    <rect x="180" y="90" width="920" height="650" rx="14" fill="#0B1520" stroke="#2C5673" stroke-width="4"/>
+    <rect x="210" y="120" width="860" height="590" rx="8" fill="#091220" stroke="#1E9BE0" stroke-opacity=".35" stroke-width="2"/>
+
+    <!-- trilhos de disjuntores -->
+    <g>
+      <rect x="240" y="150" width="800" height="110" rx="6" fill="#0D1B28" stroke="#24506E" stroke-width="2"/>
+      <rect x="240" y="290" width="800" height="110" rx="6" fill="#0D1B28" stroke="#24506E" stroke-width="2"/>
+      <rect x="240" y="430" width="800" height="110" rx="6" fill="#0D1B28" stroke="#24506E" stroke-width="2"/>
+    </g>
+    <g fill="#16283A" stroke="#3B7CA5" stroke-width="2">
+      <rect x="260" y="170" width="46" height="70" rx="5"/><rect x="316" y="170" width="46" height="70" rx="5"/>
+      <rect x="372" y="170" width="46" height="70" rx="5"/><rect x="428" y="170" width="46" height="70" rx="5"/>
+      <rect x="484" y="170" width="46" height="70" rx="5"/><rect x="540" y="170" width="46" height="70" rx="5"/>
+      <rect x="596" y="170" width="46" height="70" rx="5"/><rect x="652" y="170" width="46" height="70" rx="5"/>
+      <rect x="708" y="170" width="46" height="70" rx="5"/><rect x="764" y="170" width="46" height="70" rx="5"/>
+      <rect x="820" y="170" width="46" height="70" rx="5"/><rect x="876" y="170" width="46" height="70" rx="5"/>
+      <rect x="932" y="170" width="46" height="70" rx="5"/>
+
+      <rect x="260" y="310" width="46" height="70" rx="5"/><rect x="316" y="310" width="46" height="70" rx="5"/>
+      <rect x="372" y="310" width="46" height="70" rx="5"/><rect x="428" y="310" width="46" height="70" rx="5"/>
+      <rect x="484" y="310" width="46" height="70" rx="5"/><rect x="540" y="310" width="46" height="70" rx="5"/>
+      <rect x="596" y="310" width="46" height="70" rx="5"/><rect x="652" y="310" width="46" height="70" rx="5"/>
+      <rect x="708" y="310" width="46" height="70" rx="5"/><rect x="764" y="310" width="46" height="70" rx="5"/>
+      <rect x="820" y="310" width="46" height="70" rx="5"/><rect x="876" y="310" width="46" height="70" rx="5"/>
+      <rect x="932" y="310" width="46" height="70" rx="5"/>
+    </g>
+    <g fill="#5FCBFF" fill-opacity=".85">
+      <rect x="272" y="182" width="22" height="8" rx="4"/><rect x="328" y="182" width="22" height="8" rx="4"/>
+      <rect x="384" y="182" width="22" height="8" rx="4"/><rect x="440" y="182" width="22" height="8" rx="4"/>
+      <rect x="496" y="182" width="22" height="8" rx="4"/><rect x="552" y="182" width="22" height="8" rx="4"/>
+      <rect x="608" y="182" width="22" height="8" rx="4"/><rect x="664" y="182" width="22" height="8" rx="4"/>
+      <rect x="720" y="182" width="22" height="8" rx="4"/><rect x="776" y="182" width="22" height="8" rx="4"/>
+      <rect x="832" y="182" width="22" height="8" rx="4"/><rect x="888" y="182" width="22" height="8" rx="4"/>
+      <rect x="944" y="182" width="22" height="8" rx="4"/>
+    </g>
+
+    <!-- barramento -->
+    <g stroke-width="10" stroke-linecap="round">
+      <path d="M260 460h720" stroke="#B04A4A" stroke-opacity=".6"/>
+      <path d="M260 485h720" stroke="#B0912F" stroke-opacity=".6"/>
+      <path d="M260 510h720" stroke="#3B7CA5" stroke-opacity=".7"/>
+    </g>
+
+    <!-- cabos -->
+    <g fill="none" stroke="#1E9BE0" stroke-opacity=".45" stroke-width="3">
+      <path d="M283 240v70q0 20 20 20h60q20 0 20 20v100"/>
+      <path d="M451 240v40q0 20 20 20h120q20 0 20 20v120"/>
+      <path d="M675 240v60q0 20 20 20h140q20 0 20 20v100"/>
+      <path d="M955 240v200"/>
+    </g>
+
+    <!-- display -->
+    <rect x="260" y="570" width="300" height="120" rx="8" fill="#06121C" stroke="#1E9BE0" stroke-opacity=".5" stroke-width="2"/>
+    <g fill="#5FCBFF" fill-opacity=".8" font-family="monospace" font-size="26">
+      <text x="284" y="612">380 V   60 Hz</text>
+      <text x="284" y="652">cos φ 0.98</text>
+    </g>
+    <g fill="none" stroke="#5FCBFF" stroke-opacity=".7" stroke-width="3">
+      <circle cx="700" cy="630" r="52"/><path d="M700 630l30-26"/>
+      <circle cx="850" cy="630" r="52"/><path d="M850 630l-24-30"/>
+    </g>
+  </g>
+</svg>

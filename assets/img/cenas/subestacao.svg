@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" width="1280" height="820">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#071019"/><stop offset=".55" stop-color="#0A1927"/><stop offset="1" stop-color="#050A0F"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".45" r=".6">
+      <stop offset="0" stop-color="#1E9BE0" stop-opacity=".35"/><stop offset="1" stop-color="#1E9BE0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#1E9BE0" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="820" fill="url(#sky)"/>
+  <rect width="1280" height="820" fill="url(#grid)"/>
+  <ellipse cx="640" cy="380" rx="620" ry="380" fill="url(#glow)"/>
+
+  <g stroke="#8FB6CE" stroke-opacity=".5" fill="none" stroke-width="3">
+    <!-- portico -->
+    <path d="M170 660V210M420 660V210M860 660V210M1110 660V210"/>
+    <path d="M140 210h310M830 210h310"/>
+    <path d="M140 300h310M830 300h310"/>
+  </g>
+
+  <!-- isoladores -->
+  <g fill="#B9C9D6" fill-opacity=".55">
+    <g>
+      <rect x="260" y="220" width="16" height="90" rx="6"/><rect x="252" y="228" width="32" height="6" rx="3"/>
+      <rect x="252" y="248" width="32" height="6" rx="3"/><rect x="252" y="268" width="32" height="6" rx="3"/><rect x="252" y="288" width="32" height="6" rx="3"/>
+    </g>
+    <g transform="translate(80,0)">
+      <rect x="260" y="220" width="16" height="90" rx="6"/><rect x="252" y="228" width="32" height="6" rx="3"/>
+      <rect x="252" y="248" width="32" height="6" rx="3"/><rect x="252" y="268" width="32" height="6" rx="3"/><rect x="252" y="288" width="32" height="6" rx="3"/>
+    </g>
+    <g transform="translate(660,0)">
+      <rect x="260" y="220" width="16" height="90" rx="6"/><rect x="252" y="228" width="32" height="6" rx="3"/>
+      <rect x="252" y="248" width="32" height="6" rx="3"/><rect x="252" y="268" width="32" height="6" rx="3"/><rect x="252" y="288" width="32" height="6" rx="3"/>
+    </g>
+  </g>
+
+  <!-- transformador -->
+  <g>
+    <rect x="520" y="380" width="250" height="240" rx="10" fill="#0E1A26" stroke="#2E5C7C" stroke-width="3"/>
+    <rect x="545" y="330" width="40" height="60" rx="8" fill="#132433" stroke="#2E5C7C" stroke-width="3"/>
+    <rect x="625" y="330" width="40" height="60" rx="8" fill="#132433" stroke="#2E5C7C" stroke-width="3"/>
+    <rect x="705" y="330" width="40" height="60" rx="8" fill="#132433" stroke="#2E5C7C" stroke-width="3"/>
+    <g stroke="#1E9BE0" stroke-opacity=".65" stroke-width="4">
+      <path d="M540 410v190M568 410v190M596 410v190M624 410v190M652 410v190M680 410v190M708 410v190M736 410v190"/>
+    </g>
+    <rect x="520" y="380" width="250" height="34" fill="#1E9BE0" fill-opacity=".18"/>
+  </g>
+
+  <!-- cabos -->
+  <g fill="none" stroke="#5FCBFF" stroke-opacity=".55" stroke-width="3">
+    <path d="M170 240C320 300 470 300 620 240"/>
+    <path d="M420 250C520 320 720 320 860 250"/>
+    <path d="M860 240C980 300 1050 300 1110 250"/>
+    <path d="M565 330V300M645 330V285M725 330V300"/>
+  </g>
+
+  <!-- solo -->
+  <rect y="620" width="1280" height="200" fill="#060B11"/>
+  <path d="M0 620h1280" stroke="#1E9BE0" stroke-opacity=".35" stroke-width="2"/>
+  <g stroke="#1E9BE0" stroke-opacity=".14" stroke-width="2">
+    <path d="M0 660h1280M0 700h1280M0 750h1280"/>
+  </g>
+</svg>

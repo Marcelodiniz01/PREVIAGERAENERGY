@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 87" width="864" height="261" role="img" aria-label="Geraenergy Engenharia Elétrica">
+  <!--
+    Marca traçada a partir da logo oficial da Geraenergy (proporções 288x87).
+    O wordmark usa a fonte Jost; se ela não estiver disponível, cai para
+    Century Gothic / sans-serif geométrica.
+  -->
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#57C4F5"/><stop offset=".45" stop-color="#0E8FD1"/><stop offset="1" stop-color="#0A6699"/>
+    </linearGradient>
+    <linearGradient id="silver" x1=".1" y1="0" x2=".55" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset=".28" stop-color="#D8DEE4"/>
+      <stop offset=".52" stop-color="#8B959E"/><stop offset=".74" stop-color="#CBD2D9"/><stop offset="1" stop-color="#79838C"/>
+    </linearGradient>
+    <linearGradient id="word" gradientUnits="userSpaceOnUse" x1="6.5" y1="36.4" x2="18" y2="100.4">
+      <stop offset="0" stop-color="#3FA9DE"/><stop offset=".40" stop-color="#0B80C2"/>
+      <stop offset=".47" stop-color="#8E979F"/><stop offset=".60" stop-color="#D3D9DE"/><stop offset="1" stop-color="#97A0A8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Marca: raio + G -->
+  <path d="M60 1 13 28 34 33 1 63 51 34 36 26Z" fill="url(#silver)"/>
+  <path d="M50.2 26.3A20.7 20.7 0 1 0 49.7 37.4" fill="none" stroke="url(#blue)" stroke-width="5.6"/>
+  <path d="M31 35.7H56" fill="none" stroke="url(#blue)" stroke-width="5.8"/>
+
+  <!-- Wordmark -->
+  <text x="58" y="54" font-family="Jost, 'Century Gothic', 'Segoe UI', sans-serif"
+        font-size="40" font-weight="400" letter-spacing=".2" fill="url(#word)">ERAENERGY</text>
+  <text x="272" y="66.5" text-anchor="end" font-family="Jost, 'Century Gothic', 'Segoe UI', sans-serif"
+        font-size="10.2" font-weight="400" letter-spacing="2.5" fill="#1E93D4">ENGENHARIA ELÉTRICA</text>
+</svg>

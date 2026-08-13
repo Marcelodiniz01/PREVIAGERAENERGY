@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" width="1280" height="820">
+  <defs>
+    <linearGradient id="bgT2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#060D15"/><stop offset=".6" stop-color="#0A1826"/><stop offset="1" stop-color="#04080D"/>
+    </linearGradient>
+    <linearGradient id="tank" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B1A28"/><stop offset=".35" stop-color="#16334A"/>
+      <stop offset=".7" stop-color="#0E2135"/><stop offset="1" stop-color="#081422"/>
+    </linearGradient>
+    <radialGradient id="gT2" cx=".5" cy=".35" r=".6">
+      <stop offset="0" stop-color="#1E9BE0" stop-opacity=".3"/><stop offset="1" stop-color="#1E9BE0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="820" fill="url(#bgT2)"/>
+  <rect width="1280" height="820" fill="url(#gT2)"/>
+
+  <!-- buchas de alta tensao -->
+  <g>
+    <g transform="translate(430,0)">
+      <rect x="-14" y="150" width="28" height="120" rx="8" fill="#16283A" stroke="#3B7CA5" stroke-width="3"/>
+      <g fill="#B9C9D6" fill-opacity=".55">
+        <rect x="-34" y="160" width="68" height="10" rx="5"/><rect x="-34" y="182" width="68" height="10" rx="5"/>
+        <rect x="-34" y="204" width="68" height="10" rx="5"/><rect x="-34" y="226" width="68" height="10" rx="5"/>
+        <rect x="-34" y="248" width="68" height="10" rx="5"/>
+      </g>
+      <circle cy="145" r="14" fill="#5FCBFF" fill-opacity=".45"/>
+    </g>
+    <g transform="translate(640,0)">
+      <rect x="-14" y="150" width="28" height="120" rx="8" fill="#16283A" stroke="#3B7CA5" stroke-width="3"/>
+      <g fill="#B9C9D6" fill-opacity=".55">
+        <rect x="-34" y="160" width="68" height="10" rx="5"/><rect x="-34" y="182" width="68" height="10" rx="5"/>
+        <rect x="-34" y="204" width="68" height="10" rx="5"/><rect x="-34" y="226" width="68" height="10" rx="5"/>
+        <rect x="-34" y="248" width="68" height="10" rx="5"/>
+      </g>
+      <circle cy="145" r="14" fill="#5FCBFF" fill-opacity=".45"/>
+    </g>
+    <g transform="translate(850,0)">
+      <rect x="-14" y="150" width="28" height="120" rx="8" fill="#16283A" stroke="#3B7CA5" stroke-width="3"/>
+      <g fill="#B9C9D6" fill-opacity=".55">
+        <rect x="-34" y="160" width="68" height="10" rx="5"/><rect x="-34" y="182" width="68" height="10" rx="5"/>
+        <rect x="-34" y="204" width="68" height="10" rx="5"/><rect x="-34" y="226" width="68" height="10" rx="5"/>
+        <rect x="-34" y="248" width="68" height="10" rx="5"/>
+      </g>
+      <circle cy="145" r="14" fill="#5FCBFF" fill-opacity=".45"/>
+    </g>
+  </g>
+
+  <!-- cabos -->
+  <g fill="none" stroke="#5FCBFF" stroke-opacity=".5" stroke-width="4">
+    <path d="M120 60C240 120 350 120 430 145"/>
+    <path d="M300 40C420 100 560 110 640 145"/>
+    <path d="M520 40C660 90 780 110 850 145"/>
+  </g>
+
+  <!-- tanque -->
+  <rect x="330" y="268" width="620" height="330" rx="14" fill="url(#tank)" stroke="#3B7CA5" stroke-width="4"/>
+  <rect x="330" y="268" width="620" height="42" fill="#5FCBFF" fill-opacity=".1"/>
+  <g stroke="#2E5C7C" stroke-width="3" fill="none">
+    <path d="M330 360h620M330 500h620"/>
+  </g>
+
+  <!-- radiadores -->
+  <g>
+    <g stroke="#3B7CA5" stroke-width="4" stroke-linecap="round">
+      <path d="M258 300v270M282 300v270M306 300v270"/>
+      <path d="M974 300v270M998 300v270M1022 300v270"/>
+    </g>
+    <g fill="#0E2135" stroke="#2E5C7C" stroke-width="3">
+      <rect x="248" y="290" width="70" height="20" rx="6"/><rect x="248" y="560" width="70" height="20" rx="6"/>
+      <rect x="964" y="290" width="70" height="20" rx="6"/><rect x="964" y="560" width="70" height="20" rx="6"/>
+    </g>
+  </g>
+
+  <!-- placa e conservador -->
+  <rect x="380" y="230" width="180" height="42" rx="10" fill="#0E2135" stroke="#3B7CA5" stroke-width="3"/>
+  <rect x="600" y="380" width="120" height="80" rx="8" fill="#06121C" stroke="#1E9BE0" stroke-opacity=".55" stroke-width="3"/>
+  <g fill="#5FCBFF" fill-opacity=".8" font-family="monospace" font-size="24">
+    <text x="618" y="412">13,8 kV</text><text x="618" y="444">1500 kVA</text>
+  </g>
+
+  <!-- base -->
+  <rect x="300" y="598" width="680" height="26" rx="6" fill="#0A141E" stroke="#2E5C7C" stroke-width="3"/>
+  <rect y="624" width="1280" height="196" fill="#03070B"/>
+  <path d="M0 624h1280" stroke="#1E9BE0" stroke-opacity=".3" stroke-width="2"/>
+  <g stroke="#1E9BE0" stroke-opacity=".12" stroke-width="2">
+    <path d="M0 668h1280M0 712h1280M0 764h1280"/>
+  </g>
+</svg>

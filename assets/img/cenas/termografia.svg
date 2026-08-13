@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" width="1280" height="820">
+  <defs>
+    <radialGradient id="hot" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FFF3B0"/><stop offset=".28" stop-color="#FF9A3C"/>
+      <stop offset=".55" stop-color="#E0453C" stop-opacity=".8"/><stop offset="1" stop-color="#7A1E6B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="warm" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FF9A3C" stop-opacity=".85"/><stop offset=".5" stop-color="#B33C7A" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#2A2A7A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bgT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0F2A"/><stop offset="1" stop-color="#050716"/>
+    </linearGradient>
+    <linearGradient id="scale" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#12123F"/><stop offset=".35" stop-color="#5B2C86"/>
+      <stop offset=".6" stop-color="#E0453C"/><stop offset=".82" stop-color="#FF9A3C"/><stop offset="1" stop-color="#FFF3B0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="820" fill="url(#bgT)"/>
+
+  <!-- massa térmica do painel -->
+  <g opacity=".9">
+    <ellipse cx="420" cy="380" rx="300" ry="240" fill="url(#warm)"/>
+    <ellipse cx="820" cy="450" rx="260" ry="210" fill="url(#warm)" opacity=".7"/>
+    <ellipse cx="905" cy="330" rx="150" ry="130" fill="url(#hot)"/>
+    <ellipse cx="330" cy="300" rx="80" ry="70" fill="url(#hot)" opacity=".75"/>
+  </g>
+
+  <!-- contorno técnico do equipamento -->
+  <g fill="none" stroke="#DDE8FF" stroke-opacity=".28" stroke-width="3">
+    <rect x="180" y="150" width="920" height="520" rx="12"/>
+    <path d="M180 300h920M180 460h920M420 150v520M760 150v520"/>
+  </g>
+
+  <!-- retículo / mira -->
+  <g fill="none" stroke="#FFFFFF" stroke-opacity=".85" stroke-width="3">
+    <path d="M845 330h-30M965 330h30M905 270v-30M905 390v30"/>
+    <rect x="835" y="260" width="140" height="140" rx="4" stroke-dasharray="26 14"/>
+  </g>
+  <g fill="#FFFFFF" font-family="monospace" font-size="30">
+    <text x="835" y="240">SP1  78.4 °C</text>
+  </g>
+  <g fill="#FFD9A0" font-family="monospace" font-size="24" fill-opacity=".85">
+    <text x="250" y="270">SP2  46.1 °C</text>
+    <text x="250" y="620">Δt 32.3 °C — CRÍTICO</text>
+  </g>
+
+  <!-- escala -->
+  <rect x="1150" y="150" width="42" height="520" rx="8" fill="url(#scale)" stroke="#FFFFFF" stroke-opacity=".25" stroke-width="2"/>
+  <g fill="#FFFFFF" fill-opacity=".8" font-family="monospace" font-size="22">
+    <text x="1120" y="145" text-anchor="end">90</text>
+    <text x="1120" y="415" text-anchor="end">50</text>
+    <text x="1120" y="682" text-anchor="end">20</text>
+  </g>
+
+  <!-- HUD -->
+  <g fill="none" stroke="#FFFFFF" stroke-opacity=".55" stroke-width="4">
+    <path d="M60 110V60h50M1220 110V60h-50M60 710v50h50M1220 710v50h-50"/>
+  </g>
+</svg>

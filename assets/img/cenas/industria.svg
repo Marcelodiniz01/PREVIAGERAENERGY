@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" width="1280" height="820">
+  <defs>
+    <linearGradient id="skyI" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050A10"/><stop offset=".6" stop-color="#0A1826"/><stop offset="1" stop-color="#040709"/>
+    </linearGradient>
+    <radialGradient id="gI" cx=".5" cy=".9" r=".7">
+      <stop offset="0" stop-color="#1E9BE0" stop-opacity=".3"/><stop offset="1" stop-color="#1E9BE0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="820" fill="url(#skyI)"/>
+  <rect width="1280" height="820" fill="url(#gI)"/>
+
+  <!-- galpões -->
+  <g fill="#08131F" stroke="#2A5271" stroke-width="3">
+    <path d="M120 640V420l160-70 160 70v220z"/>
+    <path d="M460 640V470l140-60 140 60v170z"/>
+    <path d="M760 640V380h280v260z"/>
+  </g>
+  <!-- telhado shed -->
+  <g fill="none" stroke="#3B7CA5" stroke-opacity=".6" stroke-width="3">
+    <path d="M760 380l50-40h60l-50 40M870 380l50-40h60l-50 40M980 380l50-40h10"/>
+  </g>
+  <!-- janelas iluminadas -->
+  <g fill="#5FCBFF" fill-opacity=".35">
+    <rect x="160" y="470" width="40" height="34" rx="3"/><rect x="220" y="470" width="40" height="34" rx="3"/>
+    <rect x="280" y="470" width="40" height="34" rx="3"/><rect x="340" y="470" width="40" height="34" rx="3"/>
+    <rect x="160" y="530" width="40" height="34" rx="3"/><rect x="280" y="530" width="40" height="34" rx="3"/>
+    <rect x="500" y="510" width="36" height="30" rx="3"/><rect x="556" y="510" width="36" height="30" rx="3"/>
+    <rect x="612" y="510" width="36" height="30" rx="3"/><rect x="668" y="510" width="36" height="30" rx="3"/>
+    <rect x="800" y="440" width="46" height="36" rx="3"/><rect x="870" y="440" width="46" height="36" rx="3"/>
+    <rect x="940" y="440" width="46" height="36" rx="3"/><rect x="800" y="510" width="46" height="36" rx="3"/>
+    <rect x="940" y="510" width="46" height="36" rx="3"/>
+  </g>
+
+  <!-- chaminés -->
+  <g fill="#0B1622" stroke="#2A5271" stroke-width="3">
+    <rect x="1080" y="280" width="46" height="360" rx="6"/>
+    <rect x="1150" y="330" width="40" height="310" rx="6"/>
+  </g>
+  <g fill="#5FCBFF" fill-opacity=".12">
+    <ellipse cx="1103" cy="240" rx="60" ry="34"/><ellipse cx="1130" cy="190" rx="80" ry="40"/>
+  </g>
+
+  <!-- postes -->
+  <g stroke="#8FB6CE" stroke-opacity=".55" stroke-width="4" fill="none">
+    <path d="M80 640V300M80 320h70M80 360h50"/>
+    <path d="M700 640V260M700 280h80M700 320h56"/>
+  </g>
+  <g fill="none" stroke="#5FCBFF" stroke-opacity=".45" stroke-width="3">
+    <path d="M80 320C300 400 520 400 700 285"/>
+    <path d="M80 360C300 440 520 440 700 325"/>
+    <path d="M700 285C900 340 1100 330 1280 280"/>
+  </g>
+  <g fill="#5FCBFF" fill-opacity=".7"><circle cx="80" cy="300" r="6"/><circle cx="700" cy="260" r="6"/></g>
+
+  <rect y="640" width="1280" height="180" fill="#03070B"/>
+  <g stroke="#1E9BE0" stroke-opacity=".16" stroke-width="2">
+    <path d="M0 680h1280M0 720h1280M0 770h1280"/>
+  </g>
+  <path d="M0 640h1280" stroke="#1E9BE0" stroke-opacity=".35" stroke-width="2"/>
+</svg>

@@ -1,0 +1,33 @@
+COLOQUE AS FOTOS REAIS NESTA PASTA
+==================================
+
+Salve os arquivos exatamente com estes nomes. O site troca a ilustração
+pela foto sozinho — você não precisa mexer em nenhum código.
+
+  hero.jpg      -> fundo do topo do site        (ideal 1920x1200)
+                   sugestão: subestação, torre ou equipe em serviço
+
+  equipe.jpg    -> seção "Sobre nós", vertical  (ideal 900x1100)
+                   sugestão: eletricistas com EPI trabalhando
+
+  obra-1.jpg    -> galeria: Subestação          (ideal 1600x1000)
+  obra-2.jpg    -> galeria: Painéis / QGBT
+  obra-3.jpg    -> galeria: Termografia / preditiva
+  obra-4.jpg    -> galeria: Rede, poste, linha aérea
+  obra-5.jpg    -> galeria: Geração (solar ou gerador)
+  obra-6.jpg    -> galeria: Infraestrutura industrial
+  obra-7.jpg    -> galeria: Manutenção em cabine
+  obra-8.jpg    -> galeria: Transformador
+
+Observações
+-----------
+- Se um arquivo não existir, a ilustração técnica continua no lugar.
+  Nunca aparece imagem quebrada.
+- Aceita .jpg, .jpeg, .png, .webp e .avif — mas se usar outra extensão,
+  troque também o nome no index.html (procure por "data-photo").
+- Fotos na horizontal funcionam melhor na galeria; a de "equipe" é a
+  única em pé.
+- Depois de colocar as fotos, apague o aviso no fim da seção "Obras"
+  do index.html (o parágrafo com class="gal__note").
+
+Este arquivo .txt pode ser apagado.

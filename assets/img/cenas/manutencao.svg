@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" width="1280" height="820">
+  <defs>
+    <linearGradient id="bgM" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111A"/><stop offset="1" stop-color="#04080C"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx=".28" cy=".2" r=".55">
+      <stop offset="0" stop-color="#FFE9A8" stop-opacity=".22"/><stop offset="1" stop-color="#FFE9A8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="820" fill="url(#bgM)"/>
+  <rect width="1280" height="820" fill="url(#lamp)"/>
+
+  <!-- cabine primaria aberta -->
+  <rect x="150" y="90" width="700" height="620" rx="12" fill="#09141F" stroke="#2C5673" stroke-width="4"/>
+  <rect x="180" y="120" width="640" height="560" rx="8" fill="#071019" stroke="#1E9BE0" stroke-opacity=".28" stroke-width="2"/>
+
+  <!-- porta aberta -->
+  <path d="M850 110 L1010 170 V690 L850 690Z" fill="#0B1825" stroke="#2C5673" stroke-width="4"/>
+  <g stroke="#3B7CA5" stroke-opacity=".5" stroke-width="3" fill="none">
+    <path d="M880 200 L985 232M880 300 L985 320M880 400 L985 408"/>
+  </g>
+
+  <!-- chave seccionadora / barramentos -->
+  <g stroke="#5FCBFF" stroke-opacity=".55" stroke-width="8" stroke-linecap="round">
+    <path d="M240 200h520M240 330h520M240 460h520"/>
+  </g>
+  <g fill="#B9C9D6" fill-opacity=".5">
+    <rect x="300" y="180" width="20" height="42" rx="8"/><rect x="480" y="180" width="20" height="42" rx="8"/><rect x="660" y="180" width="20" height="42" rx="8"/>
+    <rect x="300" y="310" width="20" height="42" rx="8"/><rect x="480" y="310" width="20" height="42" rx="8"/><rect x="660" y="310" width="20" height="42" rx="8"/>
+  </g>
+
+  <!-- transformador de corrente -->
+  <g fill="#0E1B28" stroke="#3B7CA5" stroke-width="3">
+    <rect x="260" y="500" width="120" height="120" rx="10"/>
+    <rect x="430" y="500" width="120" height="120" rx="10"/>
+    <rect x="600" y="500" width="120" height="120" rx="10"/>
+  </g>
+  <g fill="none" stroke="#5FCBFF" stroke-opacity=".45" stroke-width="4">
+    <path d="M320 460v40M490 460v40M660 460v40"/>
+  </g>
+
+  <!-- alerta de manutencao -->
+  <g transform="translate(1040,300)">
+    <path d="M60 0 120 104H0Z" fill="#FFB020" fill-opacity=".16" stroke="#FFB020" stroke-opacity=".7" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="55" y="34" width="10" height="34" rx="5" fill="#FFB020" fill-opacity=".85"/>
+    <circle cx="60" cy="82" r="6" fill="#FFB020" fill-opacity=".85"/>
+  </g>
+  <g fill="#FFD98A" fill-opacity=".7" font-family="monospace" font-size="22">
+    <text x="1030" y="452">EQUIPAMENTO</text>
+    <text x="1030" y="482">DESENERGIZADO</text>
+    <text x="1030" y="512">E ATERRADO</text>
+  </g>
+
+  <!-- ferramenta / cabo de teste -->
+  <g fill="none" stroke="#E05A3C" stroke-opacity=".65" stroke-width="6" stroke-linecap="round">
+    <path d="M760 640C860 690 960 690 1060 640"/>
+  </g>
+  <g fill="none" stroke="#3B7CA5" stroke-opacity=".6" stroke-width="6" stroke-linecap="round">
+    <path d="M760 664C860 716 960 716 1060 664"/>
+  </g>
+
+  <rect y="710" width="1280" height="110" fill="#03070B"/>
+  <path d="M0 710h1280" stroke="#1E9BE0" stroke-opacity=".3" stroke-width="2"/>
+</svg>

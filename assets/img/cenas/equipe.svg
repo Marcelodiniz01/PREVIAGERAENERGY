@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" width="900" height="1100">
+  <defs>
+    <linearGradient id="bgE" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A1B2B"/><stop offset=".55" stop-color="#071019"/><stop offset="1" stop-color="#04080D"/>
+    </linearGradient>
+    <radialGradient id="gE" cx=".5" cy=".3" r=".6">
+      <stop offset="0" stop-color="#1E9BE0" stop-opacity=".26"/><stop offset="1" stop-color="#1E9BE0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="capacete" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD166"/><stop offset="1" stop-color="#C98F1F"/>
+    </linearGradient>
+    <linearGradient id="uniforme" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123A5E"/><stop offset="1" stop-color="#0A2033"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bgE)"/>
+  <rect width="900" height="1100" fill="url(#gE)"/>
+
+  <!-- estrutura ao fundo -->
+  <g fill="none" stroke="#5FCBFF" stroke-opacity=".14" stroke-width="4">
+    <path d="M120 0v1100M780 0v1100M0 260h900M0 640h900"/>
+    <path d="M120 260 780 640M780 260 120 640"/>
+  </g>
+  <g fill="none" stroke="#5FCBFF" stroke-opacity=".28" stroke-width="4" stroke-dasharray="14 18">
+    <path d="M0 150C240 210 660 210 900 150"/>
+    <path d="M0 200C240 268 660 268 900 200"/>
+  </g>
+
+  <!-- tecnico ao fundo (menor) -->
+  <g transform="translate(600,470) scale(.78)" opacity=".55">
+    <path d="M-58 300v-150a58 58 0 0 1 116 0v150z" fill="url(#uniforme)" stroke="#3B7CA5" stroke-width="3"/>
+    <circle cy="-40" r="42" fill="#1B3348" stroke="#3B7CA5" stroke-width="3"/>
+    <path d="M-48-56a48 48 0 0 1 96 0z" fill="url(#capacete)"/>
+    <path d="M-56-56h112" stroke="#8A6413" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-58 60 -110 190M58 60 110 160" stroke="#3B7CA5" stroke-width="16" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- tecnico principal -->
+  <g transform="translate(340,560)">
+    <path d="M-78 380V180a78 78 0 0 1 156 0v200z" fill="url(#uniforme)" stroke="#3B7CA5" stroke-width="4"/>
+    <!-- faixas refletivas -->
+    <g stroke="#8FE0FF" stroke-opacity=".55" stroke-width="9" fill="none">
+      <path d="M-74 250h148M-74 290h148"/>
+      <path d="M-30 180v70M30 180v70"/>
+    </g>
+    <!-- cabeca + capacete -->
+    <circle cy="40" r="56" fill="#1B3348" stroke="#3B7CA5" stroke-width="4"/>
+    <path d="M-64 22a64 64 0 0 1 128 0z" fill="url(#capacete)"/>
+    <path d="M-74 22h148" stroke="#8A6413" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-30 -12h60" stroke="#8A6413" stroke-width="5" stroke-linecap="round"/>
+    <!-- oculos -->
+    <path d="M-40 46h80" stroke="#9FD9F7" stroke-opacity=".8" stroke-width="12" stroke-linecap="round"/>
+    <!-- bracos -->
+    <path d="M-78 210 -160 300M78 210 150 150" stroke="#123A5E" stroke-width="34" stroke-linecap="round" fill="none"/>
+    <path d="M-78 210 -160 300M78 210 150 150" stroke="#8FE0FF" stroke-opacity=".28" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <!-- ferramenta -->
+    <g transform="translate(150,150) rotate(-25)">
+      <rect x="-10" y="-56" width="20" height="76" rx="8" fill="#E05A3C" fill-opacity=".8"/>
+      <rect x="-6" y="-92" width="12" height="40" rx="4" fill="#C3CFDA"/>
+    </g>
+  </g>
+
+  <!-- particulas / faiscas -->
+  <g fill="#8FE0FF">
+    <circle cx="700" cy="220" r="4" fill-opacity=".8"/><circle cx="180" cy="330" r="3" fill-opacity=".6"/>
+    <circle cx="820" cy="520" r="3.5" fill-opacity=".55"/><circle cx="90" cy="700" r="3" fill-opacity=".5"/>
+    <circle cx="760" cy="860" r="4" fill-opacity=".45"/>
+  </g>
+
+  <rect y="940" width="900" height="160" fill="#03070B"/>
+  <path d="M0 940h900" stroke="#1E9BE0" stroke-opacity=".3" stroke-width="3"/>
+</svg>

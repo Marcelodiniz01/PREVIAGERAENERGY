@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" width="1280" height="820">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#04080D"/><stop offset=".5" stop-color="#0A1B2B"/><stop offset="1" stop-color="#123A55"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".72" cy=".78" r=".45">
+      <stop offset="0" stop-color="#5FCBFF" stop-opacity=".55"/><stop offset="1" stop-color="#5FCBFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="820" fill="url(#sky3)"/>
+  <rect width="1280" height="820" fill="url(#sun)"/>
+  <g fill="#FFFFFF" fill-opacity=".5">
+    <circle cx="180" cy="120" r="2"/><circle cx="340" cy="70" r="1.6"/><circle cx="520" cy="150" r="2.2"/>
+    <circle cx="700" cy="90" r="1.5"/><circle cx="900" cy="140" r="2"/><circle cx="1100" cy="80" r="1.8"/>
+    <circle cx="1220" cy="200" r="1.5"/><circle cx="60" cy="230" r="1.6"/>
+  </g>
+
+  <!-- cabos de fundo -->
+  <g fill="none" stroke="#9FC4DC" stroke-opacity=".28" stroke-width="2.5">
+    <path d="M0 250C300 340 980 340 1280 250"/>
+    <path d="M0 300C300 400 980 400 1280 300"/>
+    <path d="M0 350C300 455 980 455 1280 350"/>
+  </g>
+
+  <!-- torre principal -->
+  <g stroke="#DCE8F2" stroke-opacity=".75" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M640 90 500 780M640 90 780 780"/>
+    <path d="M528 620h224M548 520h184M566 430h148M584 350h112M600 280h80M614 220h52M626 160h28"/>
+    <path d="M528 620 732 520M752 620 548 520M548 520 714 430M732 520 566 430M566 430 696 350M714 430 584 350M584 350 680 280M696 350 600 280"/>
+    <path d="M430 250h420M400 320h480M450 400h380"/>
+    <path d="M640 90V40M620 60h40"/>
+  </g>
+  <g fill="#DCE8F2" fill-opacity=".6">
+    <rect x="424" y="250" width="12" height="34" rx="6"/><rect x="844" y="250" width="12" height="34" rx="6"/>
+    <rect x="394" y="320" width="12" height="34" rx="6"/><rect x="874" y="320" width="12" height="34" rx="6"/>
+    <rect x="444" y="400" width="12" height="34" rx="6"/><rect x="824" y="400" width="12" height="34" rx="6"/>
+  </g>
+  <circle cx="640" cy="40" r="7" fill="#FF5A5A" fill-opacity=".9"/>
+
+  <!-- torres distantes -->
+  <g stroke="#8FB6CE" stroke-opacity=".22" stroke-width="3" fill="none">
+    <path d="M150 380 100 700M150 380 200 700M120 560h60M130 480h40M60 430h180M75 480h150"/>
+    <path d="M1130 400 1085 700M1130 400 1175 700M1103 560h54M1112 490h36M1050 445h160M1063 490h134"/>
+  </g>
+
+  <rect y="700" width="1280" height="120" fill="#03070B"/>
+  <path d="M0 700c160-26 320 18 480-6s320-40 480-14 240 20 320 6v134H0z" fill="#050A10"/>
+</svg>
